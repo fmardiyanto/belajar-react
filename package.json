@@ -8,10 +8,11 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "gh-pages": "^2.2.0",
+    "homepage": "http://fmardiyanto.github.io/belajar-react",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "homepage": "http://fmardiyanto.github.io/belajar-react"
+    "uuid": "^7.0.3"
   },
   "scripts": {
     "start": "react-scripts start",

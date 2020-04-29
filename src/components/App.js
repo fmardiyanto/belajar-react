@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import Todo from './Todo/Todo';
+import Header from '../shared/components/layout/Header';
+import Content from '../shared/components/layout/Content';
+import Footer from '../shared/components/layout/Footer';
+import './App.css';
+// import Home from './Home/Home';
 
-    //Saya meng-import komponen home disini
-    import Home from './Home/Home.js';
-    import './App.css';
-    import Header from '../shared/components/layout/Header';
-    import Footer from '../shared/components/layout/Footer';
-    import Content from '../shared/components/layout/Content';
-
-    class App extends Component {
-      render() {
+class App extends Component {
+    render() {
         return (
-          <div className="App">
-            <Header title="Selamat datang di Firman Mardiyanto Blog" />
+            <div className="App">
+                <Header title="Todo List"/>
 
-            {/* Dibawah sini saya meletakan komponen Home */}
-            <Content>
-            <Home />
-            </Content>
-            <Footer />
-          </div>
+                <Content>
+                   <Todo/>
+                </Content>
+
+                <Footer/>
+            </div>
         );
-      }
     }
+}
 
-    export default App;
+export default App;
